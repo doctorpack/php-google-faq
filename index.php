@@ -62,13 +62,13 @@
                 </ul>
             </div>
         </div>
-    </header>
+    </header> 
     <main>
         <div class="faqs-container">
             <?php foreach($faqs as $faq){ ?>
                 <div>
-                    <h2><?php echo $faq['q'] ?></h2>
-                    <p><?php echo $faq['a'] ?></p>
+                    <h2><?php echo $faq['question'] ?></h2>
+                    <p><?php echo $faq['answer'] ?></p>
                 </div>
             <?php } ?>
         </div>
