@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    width: 100px;
+}
+.header-container{
+    padding: 0 1rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid black;
+}
+.upper-header{
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+.upper-header *{
+    margin-right: 1rem;
+}
+.page-title{
+    font-size: 2rem;
+}
+.lower-header ul{
+    display: flex;
+
+}
+.lower-header ul li{
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+}
+.active{
+    color: #7472c7;
+    border-bottom: 3px solid #7472c7;
+}
+
+.faqs-container{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.faqs-container div{
+    margin-top: 3rem;
+}
